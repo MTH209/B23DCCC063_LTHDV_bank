@@ -1,0 +1,13 @@
+{
+  "name": "ptit-lthdv-lab3",
+  "version": "1.0.0",
+  "description": "Ket noi va duy tri ket noi giua cac service",
+  "scripts": {
+    "start:bank": "node bank-service/server.js",
+    "start:fee": "node fee-service/server.js",
+    "test:th1": "node tests/test-th1.js",
+    "test:th2": "node tests/test-th2.js",
+    "test:th3": "node tests/test-th3.js",
+    "test:th4": "node tests/test-th4.js"
+  }
+}
